@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56641D482772A576007CF838 /* Magic_UpdaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D472772A576007CF838 /* Magic_UpdaterApp.swift */; };
+		56641D4A2772A576007CF838 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D492772A576007CF838 /* ContentView.swift */; };
+		56641D4C2772A577007CF838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56641D4B2772A577007CF838 /* Assets.xcassets */; };
+		56641D4F2772A577007CF838 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56641D4E2772A577007CF838 /* Preview Assets.xcassets */; };
+		56641D572772A67D007CF838 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D562772A67D007CF838 /* SpeechRecognizer.swift */; };
+		56641D592772A83F007CF838 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D582772A83F007CF838 /* Theme.swift */; };
+		56641D5B2772AA05007CF838 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D5A2772AA05007CF838 /* History.swift */; };
+		56641D5D2772AA77007CF838 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D5C2772AA77007CF838 /* ErrorWrapper.swift */; };
+		56641D5F2772AABF007CF838 /* MagicHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D5E2772AABF007CF838 /* MagicHistory.swift */; };
+		56641D612772AC20007CF838 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D602772AC20007CF838 /* ErrorView.swift */; };
+		56641D632772AF90007CF838 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D622772AF90007CF838 /* HeaderView.swift */; };
+		56641D652772B1BE007CF838 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D642772B1BE007CF838 /* RecordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56641D442772A576007CF838 /* Magic_Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magic_Updater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56641D472772A576007CF838 /* Magic_UpdaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_UpdaterApp.swift; sourceTree = "<group>"; };
+		56641D492772A576007CF838 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		56641D4B2772A577007CF838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56641D4E2772A577007CF838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56641D562772A67D007CF838 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		56641D582772A83F007CF838 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		56641D5A2772AA05007CF838 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		56641D5C2772AA77007CF838 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		56641D5E2772AABF007CF838 /* MagicHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicHistory.swift; sourceTree = "<group>"; };
+		56641D602772AC20007CF838 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		56641D622772AF90007CF838 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		56641D642772B1BE007CF838 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56641D412772A576007CF838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56641D3B2772A576007CF838 = {
+			isa = PBXGroup;
+			children = (
+				56641D462772A576007CF838 /* Magic_Updater */,
+				56641D452772A576007CF838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56641D452772A576007CF838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56641D442772A576007CF838 /* Magic_Updater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56641D462772A576007CF838 /* Magic_Updater */ = {
+			isa = PBXGroup;
+			children = (
+				56641D552772A5CC007CF838 /* Models */,
+				56641D472772A576007CF838 /* Magic_UpdaterApp.swift */,
+				56641D602772AC20007CF838 /* ErrorView.swift */,
+				56641D492772A576007CF838 /* ContentView.swift */,
+				56641D622772AF90007CF838 /* HeaderView.swift */,
+				56641D642772B1BE007CF838 /* RecordView.swift */,
+				56641D4B2772A577007CF838 /* Assets.xcassets */,
+				56641D4D2772A577007CF838 /* Preview Content */,
+			);
+			path = Magic_Updater;
+			sourceTree = "<group>";
+		};
+		56641D4D2772A577007CF838 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56641D4E2772A577007CF838 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		56641D552772A5CC007CF838 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56641D562772A67D007CF838 /* SpeechRecognizer.swift */,
+				56641D582772A83F007CF838 /* Theme.swift */,
+				56641D5A2772AA05007CF838 /* History.swift */,
+				56641D5C2772AA77007CF838 /* ErrorWrapper.swift */,
+				56641D5E2772AABF007CF838 /* MagicHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56641D432772A576007CF838 /* Magic_Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56641D522772A577007CF838 /* Build configuration list for PBXNativeTarget "Magic_Updater" */;
+			buildPhases = (
+				56641D402772A576007CF838 /* Sources */,
+				56641D412772A576007CF838 /* Frameworks */,
+				56641D422772A576007CF838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magic_Updater;
+			productName = Magic_Updater;
+			productReference = 56641D442772A576007CF838 /* Magic_Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56641D3C2772A576007CF838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					56641D432772A576007CF838 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 56641D3F2772A576007CF838 /* Build configuration list for PBXProject "Magic_Updater" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56641D3B2772A576007CF838;
+			productRefGroup = 56641D452772A576007CF838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56641D432772A576007CF838 /* Magic_Updater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56641D422772A576007CF838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56641D4F2772A577007CF838 /* Preview Assets.xcassets in Resources */,
+				56641D4C2772A577007CF838 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56641D402772A576007CF838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56641D652772B1BE007CF838 /* RecordView.swift in Sources */,
+				56641D5D2772AA77007CF838 /* ErrorWrapper.swift in Sources */,
+				56641D632772AF90007CF838 /* HeaderView.swift in Sources */,
+				56641D4A2772A576007CF838 /* ContentView.swift in Sources */,
+				56641D592772A83F007CF838 /* Theme.swift in Sources */,
+				56641D482772A576007CF838 /* Magic_UpdaterApp.swift in Sources */,
+				56641D572772A67D007CF838 /* SpeechRecognizer.swift in Sources */,
+				56641D5F2772AABF007CF838 /* MagicHistory.swift in Sources */,
+				56641D5B2772AA05007CF838 /* History.swift in Sources */,
+				56641D612772AC20007CF838 /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56641D502772A577007CF838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56641D512772A577007CF838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56641D532772A577007CF838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magic_Updater/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D55SS8RQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access to microphone needed for voice commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Access needed to recognize voice commands";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "acm.Magic-Updater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56641D542772A577007CF838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magic_Updater/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D55SS8RQ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access to microphone needed for voice commands";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Access needed to recognize voice commands";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "acm.Magic-Updater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56641D3F2772A576007CF838 /* Build configuration list for PBXProject "Magic_Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56641D502772A577007CF838 /* Debug */,
+				56641D512772A577007CF838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56641D522772A577007CF838 /* Build configuration list for PBXNativeTarget "Magic_Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56641D532772A577007CF838 /* Debug */,
+				56641D542772A577007CF838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56641D3C2772A576007CF838 /* Project object */;
+}
