@@ -19,6 +19,8 @@
 		56641D612772AC20007CF838 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D602772AC20007CF838 /* ErrorView.swift */; };
 		56641D632772AF90007CF838 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D622772AF90007CF838 /* HeaderView.swift */; };
 		56641D652772B1BE007CF838 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56641D642772B1BE007CF838 /* RecordView.swift */; };
+		56B77F56277A794B00791D6A /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B77F55277A794B00791D6A /* FooterView.swift */; };
+		56B77F58277A7BF200791D6A /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B77F57277A7BF200791D6A /* OutputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		56641D602772AC20007CF838 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		56641D622772AF90007CF838 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		56641D642772B1BE007CF838 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		56B77F55277A794B00791D6A /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		56B77F57277A7BF200791D6A /* OutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		56641D3B2772A576007CF838 = {
 			isa = PBXGroup;
 			children = (
+				56B77F57277A7BF200791D6A /* OutputView.swift */,
 				56641D462772A576007CF838 /* Magic_Updater */,
 				56641D452772A576007CF838 /* Products */,
 			);
@@ -70,9 +75,10 @@
 				56641D552772A5CC007CF838 /* Models */,
 				56641D472772A576007CF838 /* Magic_UpdaterApp.swift */,
 				56641D602772AC20007CF838 /* ErrorView.swift */,
-				56641D492772A576007CF838 /* ContentView.swift */,
 				56641D622772AF90007CF838 /* HeaderView.swift */,
+				56641D492772A576007CF838 /* ContentView.swift */,
 				56641D642772B1BE007CF838 /* RecordView.swift */,
+				56B77F55277A794B00791D6A /* FooterView.swift */,
 				56641D4B2772A577007CF838 /* Assets.xcassets */,
 				56641D4D2772A577007CF838 /* Preview Content */,
 			);
@@ -175,10 +181,12 @@
 				56641D4A2772A576007CF838 /* ContentView.swift in Sources */,
 				56641D592772A83F007CF838 /* Theme.swift in Sources */,
 				56641D482772A576007CF838 /* Magic_UpdaterApp.swift in Sources */,
+				56B77F56277A794B00791D6A /* FooterView.swift in Sources */,
 				56641D572772A67D007CF838 /* SpeechRecognizer.swift in Sources */,
 				56641D5F2772AABF007CF838 /* MagicHistory.swift in Sources */,
 				56641D5B2772AA05007CF838 /* History.swift in Sources */,
 				56641D612772AC20007CF838 /* ErrorView.swift in Sources */,
+				56B77F58277A7BF200791D6A /* OutputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

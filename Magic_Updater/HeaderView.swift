@@ -11,13 +11,19 @@ struct HeaderView: View {
     let theme: Theme
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .font(.headline)
+        ZStack{
+        Rectangle()
+            .stroke()
+            .fill(.yellow)
+            .background(.yellow)
+            .frame(height: 50)
+        Text("Magic Updater")
+        }
     }
 }
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(theme: .bubblegum)
+        HeaderView(theme: .yellow)
     }
 }

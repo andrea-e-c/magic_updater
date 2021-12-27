@@ -20,22 +20,23 @@ struct ContentView: View {
             VStack {
                 HeaderView(theme: magic.theme)
                 RecordView(isRecording: isRecording, theme: magic.theme)
-//                FooterView()
+                // OutputView()
+                FooterView(magic: .constant(MagicHistory.sampleData[0]))
             }
         }
         .padding()
         .foregroundColor(magic.theme.accentColor)
-        .onAppear {
-            speechRecognizer.reset()
-            speechRecognizer.transcribe()
-            isRecording = true
-        }
-        .onDisappear {
-            speechRecognizer.stopTranscribing()
-            isRecording = false
-            let newHistory = History(transcript: speechRecognizer.transcript)
-            magic.history.insert(newHistory, at: 0)
-        }
+//        .onAppear {
+//            speechRecognizer.reset()
+//            speechRecognizer.transcribe()
+//            isRecording = true
+//        }
+//        .onDisappear {
+//            speechRecognizer.stopTranscribing()
+//            isRecording = false
+//            let newHistory = History(transcript: speechRecognizer.transcript)
+//            magic.history.insert(newHistory, at: 0)
+//        }
         .navigationBarTitleDisplayMode(.inline)
     }
 }
